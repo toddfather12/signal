@@ -912,7 +912,7 @@ ul { list-style: none; }
 }
 .footer__brand {
   flex-shrink: 0;
-  max-width: 220px;
+  max-width: 300px;
 }
 .footer__logo-img {
   height: 72px;
