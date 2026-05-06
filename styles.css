@@ -914,13 +914,11 @@ ul { list-style: none; }
   flex-shrink: 0;
   max-width: 220px;
 }
-.footer__logo-text {
-  font-family: var(--font-head);
-  font-weight: 800;
-  font-size: 2rem;
-  letter-spacing: 0.12em;
-  color: var(--teal);
+.footer__logo-img {
+  height: 80px;
+  width: auto;
   display: block;
+  object-fit: contain;
   margin-bottom: 0.5rem;
 }
 .footer__tagline {
