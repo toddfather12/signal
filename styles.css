@@ -201,6 +201,7 @@ ul { list-style: none; }
 }
 .footer__brand .nav__logo-img {
   height: 100px;
+  filter: brightness(0) invert(1);
 }
 .nav__links {
   display: flex;
