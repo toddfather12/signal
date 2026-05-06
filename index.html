@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIGNAL — Systems Innovation Gateway Network of Alabama</title>
+  <meta name="description" content="SIGNAL unites Alabama's sensor hardware, quantum computing, and maritime innovation ecosystems into a unified innovation network backed by research, industry, and community." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__brand">
+        <div class="nav__logo">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="18" cy="18" r="4" fill="#00D4FF"/>
+            <path d="M18 18 Q18 8 28 8" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+            <path d="M18 18 Q18 5 32 5" stroke="#00D4FF" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/>
+            <path d="M18 18 Q18 28 8 28" stroke="#FF6B2B" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+            <path d="M18 18 Q18 31 4 31" stroke="#FF6B2B" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/>
+            <circle cx="18" cy="18" r="16" stroke="#00D4FF" stroke-width="1" opacity="0.2" stroke-dasharray="4 3"/>
+          </svg>
+        </div>
+        <span class="nav__name">SIGNAL</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#pathways">Pathways</a></li>
+        <li><a href="#ecosystem">Ecosystem</a></li>
+        <li><a href="#partners">Partners</a></li>
+        <li><a href="#involved" class="nav__cta">Get Involved</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <canvas id="signalCanvas"></canvas>
+    </div>
+    <div class="hero__content container">
+      <div class="hero__badge">EDA Innovation Ecosystem Initiative</div>
+      <h1 class="hero__headline">
+        Where Alabama's<br />
+        <span class="hero__accent">Innovation Signals</span><br />
+        Converge
+      </h1>
+      <p class="hero__sub">
+        SIGNAL — Systems Innovation Gateway Network of Alabama — unites sensor
+        hardware, quantum computing, and maritime innovation into one connected
+        ecosystem that accelerates research, grows startups, and strengthens industry.
+      </p>
+      <div class="hero__actions">
+        <a href="#involved" class="btn btn--primary">Become a Partner</a>
+        <a href="#vision" class="btn btn--ghost">Explore the Vision</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-num">3</span>
+          <span class="hero__stat-label">Innovation Pathways</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">1</span>
+          <span class="hero__stat-label">Connected Network</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">AL</span>
+          <span class="hero__stat-label">Statewide Impact</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section class="vision" id="vision">
+    <div class="container">
+      <div class="section-label">Our Mission</div>
+      <h2 class="section-title">A Network Built to <span class="accent">Amplify</span> Alabama</h2>
+      <div class="vision__grid">
+        <div class="vision__statement">
+          <p>
+            Alabama stands at the intersection of deep research capability, a growing
+            startup community, and industries that are being transformed by data,
+            sensors, and artificial intelligence. SIGNAL is the framework that
+            connects those assets.
+          </p>
+          <p>
+            Backed by an EDA grant and anchored by <strong>Innovation Portal</strong>,
+            SIGNAL creates the infrastructure — physical, digital, and relational —
+            for Alabama's innovation economy to compound on itself.
+          </p>
+          <a href="#pathways" class="link-arrow">See the three pathways →</a>
+        </div>
+        <div class="vision__pillars">
+          <div class="pillar">
+            <div class="pillar__icon pillar__icon--research">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M11 8v3l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h4>Research</h4>
+            <p>Connecting university labs and federal research with real deployment challenges</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon pillar__icon--startup">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M2 17l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>Startups</h4>
+            <p>Giving founders the network, infrastructure, and market access to scale faster</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon pillar__icon--industry">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" stroke="currentColor" stroke-width="1.5"/><path d="M12 12v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M8 12v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16 12v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h4>Industry</h4>
+            <p>Helping established companies adopt emerging technologies and remain competitive</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon pillar__icon--govt">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 21h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M5 21V9" stroke="currentColor" stroke-width="1.5"/><path d="M19 21V9" stroke="currentColor" stroke-width="1.5"/><path d="M9 21V13h6v8" stroke="currentColor" stroke-width="1.5"/><path d="M12 3L2 9h20L12 3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>Government</h4>
+            <p>Aligning public investment with durable economic development outcomes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PATHWAYS -->
+  <section class="pathways" id="pathways">
+    <div class="container">
+      <div class="section-label">Innovation Pathways</div>
+      <h2 class="section-title">Three Domains. <span class="accent">One Network.</span></h2>
+      <p class="section-sub">SIGNAL operates across three interconnected domains, each addressing a critical opportunity for Alabama's innovation economy — and each made stronger by its connection to the others.</p>
+
+      <div class="pathways__grid">
+
+        <!-- Pathway 1: Sensor -->
+        <div class="pathway-card pathway-card--sensor" data-pathway="sensor">
+          <div class="pathway-card__top">
+            <div class="pathway-card__number">01</div>
+            <div class="pathway-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="3" fill="currentColor"/><circle cx="16" cy="16" r="7" stroke="currentColor" stroke-width="1.5" opacity="0.6"/><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1" opacity="0.3"/><path d="M16 4v4M16 24v4M4 16h4M24 16h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+          <h3 class="pathway-card__title">Sensor Implementation</h3>
+          <p class="pathway-card__sub">Hardware &amp; Data Integration Across Industry</p>
+          <p class="pathway-card__desc">
+            Alabama industry generates enormous volumes of untapped data. SIGNAL's sensor
+            pathway builds the protocols, hardware partnerships, and integration frameworks
+            to turn raw sensor data into operational intelligence — across manufacturing,
+            logistics, energy, and beyond.
+          </p>
+          <ul class="pathway-card__points">
+            <li>Industrial IoT deployment frameworks</li>
+            <li>Edge computing infrastructure</li>
+            <li>Cross-industry data standards</li>
+            <li>Startup-to-industry pilot pathways</li>
+          </ul>
+        </div>
+
+        <!-- Pathway 2: Quantum -->
+        <div class="pathway-card pathway-card--quantum" data-pathway="quantum">
+          <div class="pathway-card__top">
+            <div class="pathway-card__number">02</div>
+            <div class="pathway-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><ellipse cx="16" cy="16" rx="12" ry="5" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><ellipse cx="16" cy="16" rx="12" ry="5" stroke="currentColor" stroke-width="1.5" opacity="0.5" transform="rotate(60 16 16)"/><ellipse cx="16" cy="16" rx="12" ry="5" stroke="currentColor" stroke-width="1.5" opacity="0.5" transform="rotate(120 16 16)"/><circle cx="16" cy="16" r="2.5" fill="currentColor"/></svg>
+            </div>
+          </div>
+          <h3 class="pathway-card__title">Quantum Convergence</h3>
+          <p class="pathway-card__sub">Quantum Computing &amp; AI Integration Framework</p>
+          <p class="pathway-card__desc">
+            The convergence of quantum computing and artificial intelligence represents
+            one of the most significant technological shifts of the coming decade. SIGNAL
+            positions Alabama as an early mover — building the talent, infrastructure,
+            and applied research capacity to compete.
+          </p>
+          <ul class="pathway-card__points">
+            <li>Quantum-AI integration research</li>
+            <li>Workforce development pipeline</li>
+            <li>Federal partnership alignment</li>
+            <li>Applied computing testbeds</li>
+          </ul>
+        </div>
+
+        <!-- Pathway 3: Maritime -->
+        <div class="pathway-card pathway-card--maritime" data-pathway="maritime">
+          <div class="pathway-card__top">
+            <div class="pathway-card__number">03</div>
+            <div class="pathway-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 22c2-4 6-6 12-6s10 2 12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16 16V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M10 12l6-4 6 4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M2 26h28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/><path d="M6 22l-2 4h24l-2-4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <h3 class="pathway-card__title">Maritime Innovation</h3>
+          <p class="pathway-card__sub">Gulf Coast Technology &amp; Coastal Intelligence</p>
+          <p class="pathway-card__desc">
+            Alabama's Gulf Coast is both an economic asset and a strategic frontier for
+            innovation. SIGNAL's maritime pathway advances autonomous systems, coastal
+            monitoring, port intelligence, and blue economy startups — while connecting
+            Gulf Coast communities to the broader innovation network.
+          </p>
+          <ul class="pathway-card__points">
+            <li>Autonomous maritime systems</li>
+            <li>Coastal sensor &amp; monitoring networks</li>
+            <li>Port logistics intelligence</li>
+            <li>Blue economy startup development</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pathways__connection">
+        <div class="connection__line"></div>
+        <div class="connection__label">These pathways share data infrastructure, talent pipelines, startup support, and research partnerships — each strengthening the others.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECOSYSTEM -->
+  <section class="ecosystem" id="ecosystem">
+    <div class="container">
+      <div class="section-label">The Network Effect</div>
+      <h2 class="section-title">An <span class="accent">Ecosystem</span> That Compounds</h2>
+      <p class="section-sub">SIGNAL is not a single program — it is a network architecture designed so that every new partner, project, and startup makes the whole stronger.</p>
+
+      <div class="ecosystem__diagram">
+        <div class="eco-node eco-node--center">
+          <div class="eco-node__inner">
+            <svg width="28" height="28" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="4" fill="#00D4FF"/><path d="M18 18 Q18 8 28 8" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M18 18 Q18 28 8 28" stroke="#FF6B2B" stroke-width="1.5" stroke-linecap="round" fill="none"/><circle cx="18" cy="18" r="14" stroke="#00D4FF" stroke-width="1" opacity="0.3" stroke-dasharray="4 3"/></svg>
+            <span>SIGNAL</span>
+          </div>
+        </div>
+
+        <div class="eco-nodes eco-nodes--ring">
+          <div class="eco-node eco-node--university">
+            <div class="eco-node__inner">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 3L1 9l11 6 9-4.91V17" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M5 13v5c0 1.66 3.13 3 7 3s7-1.34 7-3v-5" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span>Universities &amp; Research</span>
+            </div>
+          </div>
+          <div class="eco-node eco-node--startups">
+            <div class="eco-node__inner">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <span>Startups</span>
+            </div>
+          </div>
+          <div class="eco-node eco-node--industry">
+            <div class="eco-node__inner">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M2 20h20M4 20V10l4-4v14M12 20V4l4 4v12M20 20V14l-4-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Industry Partners</span>
+            </div>
+          </div>
+          <div class="eco-node eco-node--govt">
+            <div class="eco-node__inner">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 21h18M5 21V9M19 21V9M9 21V13h6v8M12 3L2 9h20L12 3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <span>Government &amp; EDA</span>
+            </div>
+          </div>
+          <div class="eco-node eco-node--community">
+            <div class="eco-node__inner">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="7" r="3" stroke="currentColor" stroke-width="1.5"/><circle cx="15" cy="7" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" stroke="currentColor" stroke-width="1.5"/><path d="M16 11a3 3 0 0 1 5 2.83V21" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span>Community</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ecosystem__how">
+        <div class="how-item">
+          <div class="how-item__num">01</div>
+          <h4>Connect</h4>
+          <p>Bring together stakeholders who rarely share the same table — founders, researchers, industry leaders, and officials — around shared infrastructure challenges.</p>
+        </div>
+        <div class="how-item">
+          <div class="how-item__num">02</div>
+          <h4>Catalyze</h4>
+          <p>Use SIGNAL's three pathways as activation points for pilot projects, joint ventures, and research deployments that generate real economic value.</p>
+        </div>
+        <div class="how-item">
+          <div class="how-item__num">03</div>
+          <h4>Scale</h4>
+          <p>Convert successful pilots into exportable models, scalable companies, and new investment that keeps growing Alabama's innovation economy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="partners" id="partners">
+    <div class="container">
+      <div class="section-label">Anchor Partner</div>
+      <h2 class="section-title">Grounded in <span class="accent">Alabama's</span> Innovation Infrastructure</h2>
+      <p class="section-sub">SIGNAL is anchored by Innovation Portal and seeks partners across academia, industry, and government who are committed to Alabama's long-term innovation economy.</p>
+
+      <div class="partners__anchor">
+        <div class="partner-card partner-card--anchor">
+          <div class="partner-card__logo">
+            <div class="ip-logo">
+              <span class="ip-logo__mark">IP</span>
+              <span class="ip-logo__text">Innovation Portal</span>
+            </div>
+          </div>
+          <div class="partner-card__body">
+            <h3>Innovation Portal</h3>
+            <p>
+              Innovation Portal is Alabama's hub for connecting entrepreneurs with the
+              resources, mentorship, and networks they need to build lasting companies.
+              As SIGNAL's anchor partner, Innovation Portal provides the operational
+              foundation, community relationships, and startup development expertise
+              that transforms the network's vision into tangible outcomes.
+            </p>
+            <a href="https://innovation-portal.com" class="link-arrow" target="_blank" rel="noopener">Learn about Innovation Portal →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="partners__seeking">
+        <h3>We're Building the Partnership Table</h3>
+        <p>SIGNAL is actively seeking founding partners across four categories:</p>
+        <div class="partner-categories">
+          <div class="partner-cat">
+            <div class="partner-cat__icon">🎓</div>
+            <h4>Academic &amp; Research</h4>
+            <p>Universities, research centers, and federal labs with capability in sensors, AI, quantum, or maritime systems</p>
+          </div>
+          <div class="partner-cat">
+            <div class="partner-cat__icon">🏭</div>
+            <h4>Industry</h4>
+            <p>Alabama companies in manufacturing, logistics, energy, defense, and maritime ready to adopt and co-develop emerging technologies</p>
+          </div>
+          <div class="partner-cat">
+            <div class="partner-cat__icon">🏛️</div>
+            <h4>Government &amp; Economic Development</h4>
+            <p>State agencies, municipal governments, and economic development organizations aligned with Alabama's tech economy goals</p>
+          </div>
+          <div class="partner-cat">
+            <div class="partner-cat__icon">🚀</div>
+            <h4>Startups &amp; Investors</h4>
+            <p>Early-stage companies and investors operating in the sensor, quantum, AI, or maritime innovation space</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY ALABAMA -->
+  <section class="why-al">
+    <div class="container">
+      <div class="why-al__inner">
+        <div class="why-al__content">
+          <div class="section-label">Why Alabama. Why Now.</div>
+          <h2 class="section-title">The Conditions Are <span class="accent">Right</span></h2>
+          <p>
+            Alabama has world-class research institutions, a manufacturing base undergoing
+            rapid digital transformation, a Gulf Coast with unique maritime and defense
+            significance, and a growing startup community hungry for infrastructure and
+            market access.
+          </p>
+          <p>
+            EDA funding creates the moment to build the connective tissue that has been
+            missing — a network that doesn't just celebrate Alabama's assets but
+            <strong>systematically amplifies them.</strong>
+          </p>
+          <a href="#involved" class="btn btn--primary" style="margin-top: 1.5rem; display: inline-flex;">Join the Network →</a>
+        </div>
+        <div class="why-al__facts">
+          <div class="fact-card">
+            <div class="fact-card__icon">⚓</div>
+            <h4>Gulf Coast Access</h4>
+            <p>Strategic maritime gateway with defense, logistics, and blue economy potential</p>
+          </div>
+          <div class="fact-card">
+            <div class="fact-card__icon">🔬</div>
+            <h4>Research Depth</h4>
+            <p>Strong university and federal research presence in key SIGNAL domains</p>
+          </div>
+          <div class="fact-card">
+            <div class="fact-card__icon">⚙️</div>
+            <h4>Industrial Base</h4>
+            <p>Advanced manufacturing sector ready for next-generation technology integration</p>
+          </div>
+          <div class="fact-card">
+            <div class="fact-card__icon">📡</div>
+            <h4>Defense Alignment</h4>
+            <p>Proximity to major defense installations creates natural use cases for quantum and sensor work</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET INVOLVED -->
+  <section class="involved" id="involved">
+    <div class="container">
+      <div class="section-label">Take the Next Step</div>
+      <h2 class="section-title">Get <span class="accent">Involved</span></h2>
+      <p class="section-sub">SIGNAL is in its formation stage. Now is the time to shape the network — not just join it. Here's how different stakeholders are engaging.</p>
+
+      <div class="involved__grid">
+        <div class="involved-card">
+          <div class="involved-card__tag">Entrepreneurs &amp; Startups</div>
+          <h4>Build Inside the Network</h4>
+          <p>Get access to pilot opportunities, research partners, and industry customers across SIGNAL's three pathways.</p>
+          <a href="mailto:todd@innovation-portal.com?subject=SIGNAL - Startup Interest" class="btn btn--outline">Express Interest</a>
+        </div>
+        <div class="involved-card">
+          <div class="involved-card__tag">Researchers &amp; Universities</div>
+          <h4>Deploy Your Research</h4>
+          <p>Connect your lab's work with real industry deployment opportunities and a startup ecosystem ready to commercialize.</p>
+          <a href="mailto:todd@innovation-portal.com?subject=SIGNAL - Research Partnership" class="btn btn--outline">Partner With Us</a>
+        </div>
+        <div class="involved-card">
+          <div class="involved-card__tag">Industry</div>
+          <h4>Co-Develop the Future</h4>
+          <p>Work with SIGNAL partners to pilot emerging sensor, quantum, and maritime technologies inside your operations.</p>
+          <a href="mailto:todd@innovation-portal.com?subject=SIGNAL - Industry Partnership" class="btn btn--outline">Start a Conversation</a>
+        </div>
+        <div class="involved-card">
+          <div class="involved-card__tag">Government &amp; Officials</div>
+          <h4>Align Public Investment</h4>
+          <p>SIGNAL is designed to generate durable economic outcomes. Let's align on how your agency fits the network.</p>
+          <a href="mailto:todd@innovation-portal.com?subject=SIGNAL - Government Inquiry" class="btn btn--outline">Schedule a Briefing</a>
+        </div>
+      </div>
+
+      <div class="involved__cta">
+        <div class="cta-block">
+          <h3>Ready to be a Founding Partner?</h3>
+          <p>Founding partners help shape SIGNAL's governance, priorities, and early projects. Reach out directly to start the conversation.</p>
+          <a href="mailto:todd@innovation-portal.com?subject=SIGNAL - Founding Partnership" class="btn btn--primary btn--lg">Contact SIGNAL Leadership</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="nav__brand">
+            <div class="nav__logo">
+              <svg width="32" height="32" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="4" fill="#00D4FF"/><path d="M18 18 Q18 8 28 8" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M18 18 Q18 5 32 5" stroke="#00D4FF" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/><path d="M18 18 Q18 28 8 28" stroke="#FF6B2B" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M18 18 Q18 31 4 31" stroke="#FF6B2B" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/><circle cx="18" cy="18" r="16" stroke="#00D4FF" stroke-width="1" opacity="0.15" stroke-dasharray="4 3"/></svg>
+            </div>
+            <span class="nav__name" style="color: white;">SIGNAL</span>
+          </a>
+          <p class="footer__tagline">Systems Innovation Gateway<br />Network of Alabama</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h5>Pathways</h5>
+            <a href="#pathways">Sensor Implementation</a>
+            <a href="#pathways">Quantum Convergence</a>
+            <a href="#pathways">Maritime Innovation</a>
+          </div>
+          <div class="footer__col">
+            <h5>Network</h5>
+            <a href="#vision">Vision</a>
+            <a href="#ecosystem">Ecosystem</a>
+            <a href="#partners">Partners</a>
+          </div>
+          <div class="footer__col">
+            <h5>Connect</h5>
+            <a href="mailto:todd@innovation-portal.com">Contact</a>
+            <a href="#involved">Get Involved</a>
+            <a href="https://innovation-portal.com" target="_blank" rel="noopener">Innovation Portal</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 SIGNAL — Systems Innovation Gateway Network of Alabama. An Innovation Portal Initiative.</p>
+        <p class="footer__eda">EDA Grant Initiative — U.S. Economic Development Administration</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
